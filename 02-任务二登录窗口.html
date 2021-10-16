@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+      <title>任务二</title>
+      <script src="https://at.alicdn.com/t/font_2857498_mwvh2s5jwu.js"></script>
+      <script src="https://at.alicdn.com/t/font_2857498_08m6zc3nar8o.js"></script>
+        <style type="text/css">
+           .icon {
+               width: 0.8em; height: 1.5em;
+               vertical-align: -0.15em;
+               fill: currentColor;
+               overflow: hidden;
+               position: absolute; 
+               left: 550px;
+              }
+          .box{
+              width: 300px;
+              height:400px;
+              background-color: rgb(255, 255, 255);
+              margin: 20px auto;
+              box-shadow: 0px 1px 10px 1px rgba(216, 211, 211, 0.918);
+              border-radius: 10px;
+              }
+          .box  h1{
+              text-decoration:none;
+              text-align:center;
+              color: rgb(43, 194, 144);
+              font-size: 50px;
+              font-style:inherit;
+              line-height: 150px;
+              }
+          .box input[type="text"],.box input[type="password"]{
+              border-radius:5px;
+              border: 1px solid #9c9a9a;
+              background: none;
+              display:block;
+              margin: -3px auto;
+              text-align:left;
+              padding: 10px 10px; 
+              width: 160px;
+              /* 设置轮廓为无 */
+              outline:none ;
+             }
+          .box input[type="submit"]{
+              border-radius:5px;
+              border: 0px solid #eee6e6;
+              background: rgb(43, 194, 144);
+              display:block;
+              margin: 1px auto;
+              text-align: center;
+              padding:10px 10px ;
+              width:180px;
+              /* 设置光标的样式:一只手 */
+              cursor: pointer;
+             }
+          .box input[value="提交"]{
+              color:white;
+              font-size: 10px;
+             }
+       </style>
+</head>
+<body>  
+ 
+  <form class="box"  action=""  method="POST" >
+    <h1>team</h1>
+      <svg class="icon" aria-hidden="true">
+         <use xlink:href="#icon-mmm"></use>
+      </svg>
+      <input type="text" name="" placeholder="用户名" onfocus="if(placeholder=='用户名') {placeholder=''}"
+      onblur="if (placeholder=='') {placeholder='用户名'}"> <br> 
+      <svg class="icon" aria-hidden="true">
+         <use xlink:href="#icon-password1"></use>
+      </svg>
+      <input type="password"  name="" placeholder="密码"  onfocus="if(placeholder=='密码') {placeholder=''}"
+             onblur="if (placeholder=='') {placeholder='密码'}"> <br>
+      <input type="submit" name="" value="提交">
+ </form>
+
+</body>
+</html>
